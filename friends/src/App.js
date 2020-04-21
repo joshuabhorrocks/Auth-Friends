@@ -14,10 +14,10 @@ function App() {
       <header className="App-header">
         <ul>
           <li>
-            <Link to="/login">Login</Link>
+            <Link to="/login" className="login-link">Login</Link>
           </li>
           <li>
-            <Link to="/friends">Friends</Link>
+            <Link to="/friends" className="friends-link">Friends</Link>
           </li>
         </ul>
       </header>

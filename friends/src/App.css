@@ -3,7 +3,8 @@
 }
 
 .App-header {
-  background-color: black;
+  color: white;
+  background-color: goldenrod;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -13,6 +14,28 @@
   color: white;
 }
 
+h1 {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.your-friends {
+  background-color: lightblue;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
 .newFriend {
-  height: 100vh;
+  height: 50vh;
+}
+
+.data-return {
+  color: red;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 50%;
+  margin: 1% 0% 1% 25%;
+  border: 3px solid white;
 }

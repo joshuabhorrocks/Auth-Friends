@@ -28,13 +28,13 @@ class FriendsList extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="your-friends">
                 <h1>Your Friends!</h1>
                 {this.state.friendsList.map(item => (
-                    <div>
-                    <h3>{item.name}</h3>
-                    <p>{item.age}</p>
-                    <p>{item.email}</p>
+                    <div className="data-return">
+                    <h3>Name: {item.name}</h3>
+                    <p>Age: {item.age}</p>
+                    <p>Email: {item.email}</p>
                     </div>
                 ))}
                 <h2>Add a New Friend!</h2>
